@@ -1,0 +1,12 @@
+GET http://localhost:3333/users
+Content-Type: application/json
+
+###
+
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+    "name": "Johns",
+    "email": "john@example.gmail.com"
+}
